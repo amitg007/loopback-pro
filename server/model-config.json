@@ -14,31 +14,39 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysqlDs"
   },
   "AccessToken": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mysqlDs",
+    "public": true
   },
   "ACL": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mysqlDs",
+    "public": true
   },
   "RoleMapping": {
-    "dataSource": "db",
-    "public": false,
+    "dataSource": "mysqlDs",
+    "public": true,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mysqlDs",
+    "public": true
   },
   "Message": {
     "dataSource": null
   },
   "CoffeeShop": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Reviewer": {
     "dataSource": "mysqlDs",
     "public": true
   }
