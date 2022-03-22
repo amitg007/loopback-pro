@@ -11,6 +11,7 @@
     "password": "root1234",
     "name": "mysqlDs",
     "user": "root",
-    "connector": "mysql"
+    "connector": "mysql",
+    "debug": true
   }
 }

@@ -1,0 +1,17 @@
+Custom API
+1. Get Shop Details
+2. Create Shop
+
+{
+    "name": "stabuck 1",
+    "city": "Kalyan",
+    "createdAt": "2022-03-21T12:50:44.463Z",
+    "updatedAt": "2022-03-21T12:50:44.463Z"
+}
+
+3. Update by name
+4. Delete by name
+
+
+sudo npm i -g n
+sudo n 8.9.0
